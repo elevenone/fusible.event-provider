@@ -1,6 +1,7 @@
 {
     "name": "fusible/event-provider",
     "description": "Jnjxp\\Event provider for Aura\\Di",
+    "homepage":"https://github.com/fusible/fusible.event-provider",
     "type": "library",
     "require": {
         "aura/di": "^3.2",
