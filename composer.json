@@ -1,0 +1,27 @@
+{
+    "name": "fusible/event-provider",
+    "description": "Jnjxp\\Event provider for Aura\\Di",
+    "type": "library",
+    "require": {
+        "aura/di": "^3.2",
+        "jnjxp/event":"^0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fusible\\EventProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fusible\\EventProvider\\":"tests/",
+            "Aura\\Di\\": "vendor/aura/di/tests/"
+        }
+    }
+}
